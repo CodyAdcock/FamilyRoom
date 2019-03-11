@@ -11,6 +11,13 @@
 		C32C4A112236F22600BB9BF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C32C4A0F2236F22600BB9BF9 /* Main.storyboard */; };
 		C32C4A132236F22800BB9BF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C32C4A122236F22800BB9BF9 /* Assets.xcassets */; };
 		C32C4A162236F22800BB9BF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C32C4A142236F22800BB9BF9 /* LaunchScreen.storyboard */; };
+		C32C4A262236F5DF00BB9BF9 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32C4A252236F5DF00BB9BF9 /* User.swift */; };
+		C32C4A282236F5ED00BB9BF9 /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32C4A272236F5ED00BB9BF9 /* Room.swift */; };
+		C32C4A2A2236F5F800BB9BF9 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32C4A292236F5F800BB9BF9 /* Post.swift */; };
+		C32C4A2C2236F62A00BB9BF9 /* UserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32C4A2B2236F62A00BB9BF9 /* UserController.swift */; };
+		C32C4A2E2236F63100BB9BF9 /* RoomController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32C4A2D2236F63100BB9BF9 /* RoomController.swift */; };
+		C32C4A302236F63800BB9BF9 /* PostController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32C4A2F2236F63800BB9BF9 /* PostController.swift */; };
+		C32C4A322236F64300BB9BF9 /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32C4A312236F64300BB9BF9 /* NetworkClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +27,13 @@
 		C32C4A122236F22800BB9BF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C32C4A152236F22800BB9BF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C32C4A172236F22800BB9BF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C32C4A252236F5DF00BB9BF9 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		C32C4A272236F5ED00BB9BF9 /* Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
+		C32C4A292236F5F800BB9BF9 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		C32C4A2B2236F62A00BB9BF9 /* UserController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserController.swift; sourceTree = "<group>"; };
+		C32C4A2D2236F63100BB9BF9 /* RoomController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomController.swift; sourceTree = "<group>"; };
+		C32C4A2F2236F63800BB9BF9 /* PostController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostController.swift; sourceTree = "<group>"; };
+		C32C4A312236F64300BB9BF9 /* NetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +87,9 @@
 		C32C4A1E2236F3B200BB9BF9 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				C32C4A252236F5DF00BB9BF9 /* User.swift */,
+				C32C4A272236F5ED00BB9BF9 /* Room.swift */,
+				C32C4A292236F5F800BB9BF9 /* Post.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -80,6 +97,10 @@
 		C32C4A1F2236F3B300BB9BF9 /* Model Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				C32C4A2B2236F62A00BB9BF9 /* UserController.swift */,
+				C32C4A2D2236F63100BB9BF9 /* RoomController.swift */,
+				C32C4A2F2236F63800BB9BF9 /* PostController.swift */,
+				C32C4A312236F64300BB9BF9 /* NetworkClient.swift */,
 			);
 			path = "Model Controllers";
 			sourceTree = "<group>";
@@ -98,18 +119,10 @@
 			path = "View Controllers";
 			sourceTree = "<group>";
 		};
-		C32C4A232236F3EA00BB9BF9 /* New Group */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "New Group";
-			sourceTree = "<group>";
-		};
 		C32C4A242236F3F400BB9BF9 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 				C32C4A0B2236F22600BB9BF9 /* AppDelegate.swift */,
-				C32C4A232236F3EA00BB9BF9 /* New Group */,
 				C32C4A122236F22800BB9BF9 /* Assets.xcassets */,
 				C32C4A142236F22800BB9BF9 /* LaunchScreen.storyboard */,
 				C32C4A172236F22800BB9BF9 /* Info.plist */,
@@ -188,7 +201,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C32C4A262236F5DF00BB9BF9 /* User.swift in Sources */,
 				C32C4A0C2236F22600BB9BF9 /* AppDelegate.swift in Sources */,
+				C32C4A2C2236F62A00BB9BF9 /* UserController.swift in Sources */,
+				C32C4A282236F5ED00BB9BF9 /* Room.swift in Sources */,
+				C32C4A302236F63800BB9BF9 /* PostController.swift in Sources */,
+				C32C4A2E2236F63100BB9BF9 /* RoomController.swift in Sources */,
+				C32C4A2A2236F5F800BB9BF9 /* Post.swift in Sources */,
+				C32C4A322236F64300BB9BF9 /* NetworkClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,7 +356,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 23QW9JU9DK;
-				INFOPLIST_FILE = FamilyRoom/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/FamilyRoom/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -354,7 +374,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 23QW9JU9DK;
-				INFOPLIST_FILE = FamilyRoom/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/FamilyRoom/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
